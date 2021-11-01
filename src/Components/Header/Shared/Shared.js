@@ -1,6 +1,7 @@
 import React from 'react';
 import Foods from '../Foods/Foods';
 import HeaderImg from '../HeaderImg/HeaderImg';
+import JoinUs from '../JoinUs/JoinUs';
 import OurDetails from '../OurDetails/OurDetails';
 
 const Shared = () => {
@@ -9,6 +10,7 @@ const Shared = () => {
 			<HeaderImg />
 			<Foods />
 			<OurDetails />
+			<JoinUs />
 		</div>
 	);
 };

@@ -14,11 +14,11 @@ const Footer = () => {
 							<div className="text-warning display-6">A07_FoodDelivery</div>
 						</div>
 						<div>
-							<p className="text-white">&copy; 2021</p>
+							<p className="text-warning">&copy; 2021</p>
 						</div>
 					</Col>
 					<Col id="last div" md={7}>
-						<ul className="d-flex flex-row justify-content-end align-items-end  text-white">
+						<ul className="d-flex flex-row justify-content-end align-items-end  text-warning">
 							<li className="footer-menu mx-3">Home</li>
 							<li className="footer-menu mx-3">Services</li>
 							<li className="footer-menu mx-3">Contact us</li>
