@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"title": "buttermilk pancakes",
+		"category": "breakfast",
+		"price": 15.99,
+		"img": "../../../Images/Breakfast/breakfast1.png",
+		"desc": "How we dream about our future"
+	},
+	{
+		"id": 2,
+		"title": "Zappin",
+		"category": "breakfast",
+		"price": 15.99,
+		"img": "../../../Images/Breakfast/breakfast2.png",
+		"desc": "How we dream about our future"
+	},
+	{
+		"id": 3,
+		"title": "diner double",
+		"category": "lunch",
+		"price": 15.99,
+		"img": "../../../Images/lunch/lunch1.png",
+		"desc": "How we dream about our future"
+	},
+	{
+		"id": 4,
+		"title": "egg attack",
+		"category": "lunch",
+		"price": 15.99,
+		"img": "../../../Images/lunch/lunch2.png",
+		"desc": "How we dream about our future"
+	},
+	{
+		"id": 5,
+		"title": "Cloudsell ",
+		"category": "dinner",
+		"price": 15.99,
+		"img": "../../../Images/Dinner/dinner1.png",
+		"desc": "How we dream about our future"
+	},
+	{
+		"id": 6,
+		"title": "Dinnershade",
+		"category": "dinner",
+		"price": 15.99,
+		"img": "../../../Images/Dinner/dinner2.png",
+		"desc": "How we dream about our future"
+	}
+]
