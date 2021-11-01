@@ -12,7 +12,7 @@ const FoodDetails = () => {
 
 	const [foods, setFoods] = useState([]);
 	useEffect(() => {
-		fetch(`http://localhost:5000/products`)
+		fetch(`https://pure-fjord-44568.herokuapp.com/products`)
 			.then((res) => res.json())
 			.then((data) => setFoods(data));
 	}, []);
@@ -27,12 +27,14 @@ const FoodDetails = () => {
 	} = useForm();
 	const onSubmit = (data) => {
 		console.log(data);
-		axios.post('http://localhost:5000/orders', data).then((res) => {
-			if (res.data.insertedId) {
-				alert('Order placed');
-				reset();
-			}
-		});
+		axios
+			.post('https://pure-fjord-44568.herokuapp.com/orders', data)
+			.then((res) => {
+				if (res.data.insertedId) {
+					alert('Order placed');
+					reset();
+				}
+			});
 	};
 
 	return (
